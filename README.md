@@ -22,7 +22,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+[[:a, "aaa"], [:b, "bbbb"], [:a, 1111], [:b, 222], [:c, 100]].to_hash_with_array
+# => {:a=>["aaa", 1111], :b=>["bbbb", 222], :c=>[100]}
+```
 
 ## Development
 

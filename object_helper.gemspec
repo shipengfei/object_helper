@@ -10,13 +10,13 @@ Gem::Specification.new do |spec|
 
   spec.summary       = ''
   spec.description   = 'Ruby object helper methods.'
-  spec.homepage      = 'https://rubygems.org/gems/object_helper'
+  spec.homepage      = 'https://github.com/shipengfei/object_helper'
   spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   raise StandardError, 'RubyGems 2.0 or newer is required to protect against public gem pushes.' unless spec.respond_to?(:metadata)
-  spec.metadata['allowed_push_host'] = 'git@github.com:shipengfei/object_helper.git'
+  spec.metadata['allowed_push_host'] = 'https://rubygems.org'
 
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = 'https://github.com/shipengfei/object_helper'
