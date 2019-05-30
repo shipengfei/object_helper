@@ -1,3 +1,4 @@
+require_relative 'active_record/enum_cast'
 require 'object_helper/version'
 require 'object_helper/array'
 
